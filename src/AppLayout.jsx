@@ -6,11 +6,12 @@ import {createContext, useState,} from "react";
 export let Context = createContext();
 
 function AppLayout() {
-    let [count, setCount] = useState(1);
+    const [count, setCount] = useState(1);
+    const [cartItems, setCartItems] = useState([]);
 
     return (
         //2: Provide value to child components
-        <Context.Provider value={{count, setCount}}>
+        <Context.Provider value={{count, setCount, cartItems, setCartItems}}>
             <div>
                 <Header/>
                 <Outlet/>

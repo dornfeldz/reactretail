@@ -6,7 +6,7 @@ function Button() {
     const {count, setCount} = useContext(Context);
 
     return (
-        <button onClick={() => setCount(currentCount++)}>
+        <button onClick={() => setCount(count + 1)} className="border px-5">
           {count}
         </button>
     );
