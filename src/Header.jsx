@@ -2,9 +2,8 @@ import Button from "./Button.jsx";
 
 function Header() {
     return (
-        <div>
-            <h1>Header</h1>
-            <Button/>
+        <div className="">
+            <h1>E-commerce Stor</h1>
         </div>
     );
 }

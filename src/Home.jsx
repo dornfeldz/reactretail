@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom";
 import CartItem from "./CartItem.jsx";
+import StoreItem from "./StoreItem.jsx";
 
 const items = [
     {
@@ -76,9 +77,10 @@ const items = [
 function Home() {
     return (
         <div>
-            Home
-             <Link to="/cart">To cart</Link>
-            {items.map(item => <CartItem item={item} key={item.id}/> )}
+            <Link to="/cart" className="border">To cart</Link>
+            <div className="grid grid-cols-3 gap-4">
+                {items.map(item => <StoreItem item={item} key={item.id}/> )}
+            </div>
         </div>
     );
 }

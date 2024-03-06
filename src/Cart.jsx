@@ -5,15 +5,14 @@ import {Link} from "react-router-dom";
 
 
 function Cart() {
-
-    const {count} = useContext(Context);
-    const {cartItems, setCartItems} = useContext(Context);
+    const {cartItems} = useContext(Context);
 
     return (
         <div>
-
             <Link to="/" className="border px-5">Home</Link>
-            {cartItems.map(item => <CartItem item={item} key={item.id}/>  )}
+            <div className="grid grid-cols-3 gap-3">
+                {cartItems.map(item => <CartItem item={item} key={item.id}/>)}
+            </div>
         </div>
     );
 }
