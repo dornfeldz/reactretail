@@ -13,7 +13,7 @@ const items = [
     {
         "id": 2,
         "name": "Organic Bananas",
-        "quantity": 2,
+        "quantity": 1,
         "price": 0.99,
         "category": "Groceries"
     },
@@ -41,7 +41,7 @@ const items = [
     {
         "id": 6,
         "name": "Organic Green Tea",
-        "quantity": 4,
+        "quantity": 1,
         "price": 4.99,
         "category": "Groceries"
     },
@@ -55,7 +55,7 @@ const items = [
     {
         "id": 8,
         "name": "Stainless Steel Water Bottle",
-        "quantity": 2,
+        "quantity": 1,
         "price": 15.99,
         "category": "Sports"
     },

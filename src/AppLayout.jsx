@@ -8,11 +8,12 @@ export let Context = createContext();
 function AppLayout() {
     const [cartItems, setCartItems] = useState([]);
     const [storeItems, setStoreItems] = useState([]);
+    const [quantity, setQuantity] = useState(1)
 
 
     return (
         //2: Provide value to child components
-        <Context.Provider value={{cartItems, setCartItems, storeItems, setStoreItems}}>
+        <Context.Provider value={{cartItems, setCartItems, storeItems, setStoreItems, quantity, setQuantity}}>
             <div>
                 <Header/>
                 <Outlet/>
