@@ -1,8 +1,9 @@
 import {Outlet} from "react-router";
 import Header from "./Header.jsx";
 import {createContext, useState,} from "react";
+import Footer from "./Footer.jsx";
 
-//Create new context
+//1: Create new context
 export let Context = createContext();
 
 function AppLayout() {
@@ -16,7 +17,10 @@ function AppLayout() {
         <Context.Provider value={{cartItems, setCartItems, storeItems, setStoreItems, quantity, setQuantity}}>
             <div>
                 <Header/>
-                <Outlet/>
+                <div className="w-[76rem] m-[0_auto] justify-center">
+                    <Outlet/>
+                </div>
+                <Footer/>
             </div>
         </Context.Provider>
     );
