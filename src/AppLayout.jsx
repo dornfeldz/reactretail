@@ -4,7 +4,7 @@ import {createContext, useState,} from "react";
 import Footer from "./Footer.jsx";
 
 //1: Create new context
-export let Context = createContext();
+export const Context = createContext();
 
 function AppLayout() {
     const [cartItems, setCartItems] = useState([]);

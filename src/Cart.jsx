@@ -9,8 +9,8 @@ function Cart() {
 
     return (
         <div className="h-screen">
-            <Link to="/" className="border px-5">Home</Link>
-            <div className="grid grid-cols-3 gap-3">
+            <Link to="/" className="underline underline-offset-[3px] px-5 text-blue-700">&larr; Home</Link>
+            <div className="grid grid-cols-3 gap-4 mt-3">
                 {cartItems.map(item => <CartItem item={item} key={item.id}/>)}
             </div>
         </div>

@@ -1,4 +1,3 @@
-import Button from "./Button.jsx";
 import {Link} from "react-router-dom";
 
 function Header() {
@@ -8,7 +7,7 @@ function Header() {
                 <h1 className="font-bold text-xl">Ecommerce Store</h1>
             </Link>
             <Link to="/cart">
-                <img src="https://i.imgur.com/mAaNh2a.png" alt="shopping cart"/>
+                <img src="https://i.imgur.com/mAaNh2a.png" alt="shopping cart" className="text-md"/>
             </Link>
         </div>
     );
