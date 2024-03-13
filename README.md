@@ -16,7 +16,7 @@
 
 Whether you're window shopping or looking for specific items, **ReactRetail** offers a refreshing, hassle-free e-commerce experience. Dive in and explore what we've built - happy shopping!
 
-👉 Check it out [here](htttps://ecommerce-gamma-peach.vercel.app)! 
+👉 Check it out [here](https://ecommerce-gamma-peach.vercel.app)! 
 
 ## Let's Connect! 🌐
 We're always looking to improve and expand our project. If you have any feedback, suggestions, or just want to say hi, feel free to reach out!
