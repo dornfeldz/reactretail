@@ -8,7 +8,12 @@ export default {
     fontFamily:{
     'sans': 'Roboto',
     },
-    extend: {},
+
+    extend: {
+      screens:{
+        "md": "855px",
+      },
+    },
   },
   plugins: [],
 }

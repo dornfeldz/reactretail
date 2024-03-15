@@ -15,9 +15,9 @@ function AppLayout() {
     return (
         //2: Provide value to child components
         <Context.Provider value={{cartItems, setCartItems, storeItems, setStoreItems, quantity, setQuantity}}>
-            <div>
-                <Header/>
-                <div className="w-[76rem] m-[0_auto] justify-center">
+            <div className="appLayout">
+                    <Header/>
+                <div className="md:w-[50rem] lg:w-[55rem] xl:w-[78rem] m-[0_auto] justify-center">
                     <Outlet/>
                 </div>
                 <Footer/>

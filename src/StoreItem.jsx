@@ -22,7 +22,7 @@ function StoreItem({item}) {
     }
 
   return (
-      <div className="border p-3 flex flex-col gap-3 rounded-xl">
+      <div className="scale-90 sm:scale-100 border p-3 flex flex-col gap-4 rounded-xl w-[25rem] justify-self-center">
           <p className="font-bold text-xl">{item.name}</p>
           <div className="h-32 overflow-hidden relative inline-block">
               <img className="w-[auto] h-[100%] border border-black rounded-md" src={item.imgPath} alt={item.name}/>

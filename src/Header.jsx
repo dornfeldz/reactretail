@@ -6,9 +6,9 @@ function Header() {
     const {cartItems} = useContext(Context);
 
     return (
-        <div className="flex justify-between px-5 py-4 bg-yellow-300 mb-6">
+        <div className="flex justify-between px-5 py-4 bg-yellow-300 mb-6 w-full">
             <Link to="/">
-                <h1 className="font-bold text-xl">Ecommerce Store</h1>
+                <h1 className="font-bold text-xl">ReactRetail</h1>
             </Link>
             <div className="relative">
                 <Link to="/cart">
