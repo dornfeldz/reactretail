@@ -6,7 +6,7 @@ function Header() {
     const {cartItems} = useContext(Context);
 
     return (
-        <div className="flex justify-between px-5 py-4 bg-yellow-300 mb-6 w-full">
+        <div className="flex justify-between px-5 py-4 bg-yellow-300 mb-6 w-full sticky top-0 z-50">
             <Link to="/">
                 <h1 className="font-bold text-xl">ReactRetail</h1>
             </Link>
