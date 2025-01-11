@@ -3,7 +3,6 @@ import Header from "./Header.jsx";
 import {createContext, useState,} from "react";
 import Footer from "./Footer.jsx";
 
-//1: Create new context
 export const Context = createContext();
 
 function AppLayout() {
@@ -13,7 +12,6 @@ function AppLayout() {
 
 
     return (
-        //2: Provide value to child components
         <Context.Provider value={{cartItems, setCartItems, storeItems, setStoreItems, quantity, setQuantity}}>
             <div className="appLayout">
                     <Header/>

@@ -41,7 +41,7 @@ const items = [
         "quantity": 1,
         "price": 89.99,
         "category": "Electronics",
-        "imgPath": "https://i.imgur.com/1XinWqj.jpeg"
+        "imgPath": "https://res.cloudinary.com/duucjutx3/image/upload/v1736624555/react%20retail/bz6hhexcqvxat2tqhpgo.jpg"
     },
     {
         "id": 6,
