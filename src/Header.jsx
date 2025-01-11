@@ -1,20 +1,21 @@
 import {Link} from "react-router-dom";
 import {useContext} from "react";
 import {Context} from "./AppLayout.jsx";
+import { HiOutlineShoppingCart } from "react-icons/hi2";
 
 function Header() {
     const {cartItems} = useContext(Context);
 
     return (
-        <div className="flex justify-between px-5 py-4 bg-yellow-300 mb-6 w-full sticky top-0 z-50">
+        <div className="sticky top-0 z-50 flex justify-between w-full px-5 py-4 mb-6 bg-yellow-300">
             <Link to="/">
-                <h1 className="font-bold text-xl">ReactRetail</h1>
+                <h1 className="text-xl font-bold">ReactRetail</h1>
             </Link>
             <div className="relative">
                 <Link to="/cart">
-                    <img src="https://i.imgur.com/mAaNh2a.png" alt="shopping cart" className=""/>
+                    <HiOutlineShoppingCart/>
                 </Link>
-                {cartItems.length > 0 && <p className="absolute bottom-4 left-3 text-yellow-300 bg-black text-xs px-2 py-1 rounded-full font-bold">{cartItems.length}</p>}
+                {cartItems.length > 0 && <p className="absolute px-2 py-1 text-xs font-bold text-yellow-300 bg-black rounded-full bottom-4 left-3">{cartItems.length}</p>}
             </div>
         </div>
     );
