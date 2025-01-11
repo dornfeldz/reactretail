@@ -13,7 +13,7 @@ function Header() {
             </Link>
             <div className="relative">
                 <Link to="/cart">
-                    <HiOutlineShoppingCart/>
+                    <HiOutlineShoppingCart className="text-2xl"/>
                 </Link>
                 {cartItems.length > 0 && <p className="absolute px-2 py-1 text-xs font-bold text-yellow-300 bg-black rounded-full bottom-4 left-3">{cartItems.length}</p>}
             </div>
