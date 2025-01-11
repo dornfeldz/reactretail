@@ -9,7 +9,7 @@ const items = [
         "quantity": 1,
         "price": 1999.99,
         "category": "Electronics",
-        "imgPath": "https://i.imgur.com/6pPuvNy.jpeg"
+        "imgPath": "https://res.cloudinary.com/duucjutx3/image/upload/v1736624555/react%20retail/l7jpe9gfke2vxz0txej5.jpg"
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@ const items = [
         "quantity": 1,
         "price": 0.99,
         "category": "Groceries",
-        "imgPath": "https://i.imgur.com/t461F5Q.jpeg"
+        "imgPath": "https://res.cloudinary.com/duucjutx3/image/upload/v1736624555/react%20retail/zr2ql3qsuajosfhwr2aq.jpg"
     },
     {
         "id": 3,
@@ -25,7 +25,7 @@ const items = [
         "quantity": 1,
         "price": 80.50,
         "category": "Kitchenware",
-        "imgPath": "https://i.imgur.com/oKch6b6.jpeg"
+        "imgPath": "https://res.cloudinary.com/duucjutx3/image/upload/v1736624555/react%20retail/d3qotcico6pjy82q7qdp.jpg"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@ const items = [
         "quantity": 1,
         "price": 35.99,
         "category": "Furniture",
-        "imgPath": "https://i.imgur.com/0pG1s4w.jpeg"
+        "imgPath": "https://res.cloudinary.com/duucjutx3/image/upload/v1736625137/react%20retail/rydi4whkkiy2iqzemqx2.jpg"
     },
     {
         "id": 5,
@@ -49,7 +49,7 @@ const items = [
         "quantity": 1,
         "price": 4.99,
         "category": "Groceries",
-        "imgPath": "https://i.imgur.com/lZYJFeA.jpeg"
+        "imgPath": "https://res.cloudinary.com/duucjutx3/image/upload/v1736625137/react%20retail/poplotkpfqcpsdgwnjlu.jpg"
     },
     {
         "id": 7,
@@ -57,7 +57,7 @@ const items = [
         "quantity": 1,
         "price": 25.00,
         "category": "Sports",
-        "imgPath": "https://i.imgur.com/kx6nqcS.jpeg"
+        "imgPath": "https://res.cloudinary.com/duucjutx3/image/upload/v1736624555/react%20retail/emcoywsc36bmqr8tkt3x.jpg"
     },
     {
         "id": 8,
@@ -65,7 +65,7 @@ const items = [
         "quantity": 1,
         "price": 15.99,
         "category": "Sports",
-        "imgPath": "https://i.imgur.com/dIySOUx.jpeg"
+        "imgPath": "https://res.cloudinary.com/duucjutx3/image/upload/v1736625137/react%20retail/ay6diytdgqko1ay2ctnl.jpg"
     },
     {
         "id": 9,
@@ -73,7 +73,7 @@ const items = [
         "quantity": 1,
         "price": 9.99,
         "category": "Books",
-        "imgPath": "https://i.imgur.com/a4xK36D.jpeg"
+        "imgPath": "https://res.cloudinary.com/duucjutx3/image/upload/v1736624555/react%20retail/pxuyrs2u6pcjkalz0ge7.jpg"
     },
     {
         "id": 10,
@@ -81,7 +81,7 @@ const items = [
         "quantity": 1,
         "price": 349.99,
         "category": "Electronics",
-        "imgPath": "https://i.imgur.com/B4kQvcV.jpeg"
+        "imgPath": "https://res.cloudinary.com/duucjutx3/image/upload/v1736625137/react%20retail/zt2dyqjp6yyvkaxe74xx.jpg"
     }
 ]
 function Home() {
